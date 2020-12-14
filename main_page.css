@@ -1,0 +1,309 @@
+/*
+	@name main_page
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__main_page {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1024px;
+	background:rgba(102,102,102,0.7);
+}
+
+
+#rectangle_2 {
+	top: 0px;
+	left: 92px;
+	width: 614px;
+	height: 1024px;
+	-ms-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_13 {
+	top: 0px;
+	left: 743px;
+	width: 614px;
+	height: 1024px;
+	-ms-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 25px 25px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,1);
+}
+
+
+#chosun {
+	top: -2px !important;
+	position: absolute !important;
+	left: 180px;
+	width: 439px;
+	height: 116px;
+	background:url(skins/chosun.png);
+}
+
+
+#hani {
+	top: 0px !important;
+	position: absolute !important;
+	left: 914px;
+	width: 294px;
+	height: 107px;
+	background:url(skins/hani.png);
+}
+
+
+#rectangle_11 {
+	top: 137px;
+	left: 182px;
+	width: 440px;
+	height: 53px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	border: 2px solid #d8d8d8;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	background:rgba(245.44,244.41,244.41,1);
+}
+
+
+#rectangle_16 {
+	top: 137px;
+	left: 832px;
+	width: 440px;
+	height: 53px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	border: 2px solid #d8d8d8;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	background:rgba(245.44,244.41,244.41,1);
+}
+
+
+#rectangle_14 {
+	top: 576px;
+	left: 182px;
+	width: 440px;
+	height: 53px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	border: 2px solid #d8d8d8;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	background:rgba(245.44,244.41,244.41,1);
+}
+
+
+#rectangle_15 {
+	top: 576px;
+	left: 832px;
+	width: 440px;
+	height: 53px;
+	-ms-border-radius: 17px;
+	-o-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	border: 2px solid #d8d8d8;
+	-ms-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-o-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-webkit-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	-moz-box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.1);
+	background:rgba(245.44,244.41,244.41,1);
+}
+
+
+#line_1 {
+	top: 118px !important;
+	position: absolute !important;
+	left: 123px;
+	width: 552px;
+	height: 0px;
+	background:url(skins/line_1.png);
+}
+
+
+#line_2 {
+	top: 118px !important;
+	position: absolute !important;
+	left: 785px;
+	width: 552px;
+	height: 0px;
+	background:url(skins/line_2.png);
+}
+
+
+#________________ {
+	top: 148px;
+	left: 204px;
+	width: 255px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#000000;
+}
+
+
+#_________________ek1 {
+	top: 148px;
+	left: 854px;
+	width: 255px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#000000;
+}
+
+
+#_________________ek2 {
+	top: 587px;
+	left: 204px;
+	width: 255px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#000000;
+}
+
+
+#_________________ek3 {
+	top: 587px;
+	left: 854px;
+	width: 255px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 24px;
+	text-align: left;
+	line-height: 24px;
+	color:#000000;
+}
+
+
+#chosun_content_manyvirus_1 {
+	top: 644px !important;
+	position: absolute !important;
+	left: 131px;
+	width: 539px;
+	height: 337px;
+	background:url(skins/chosun_content_manyvirus_1.png);
+}
+
+
+#vector {
+	top: 147px !important;
+	position: absolute !important;
+	left: 569px;
+	width: 28px;
+	height: 28px;
+	background:url(skins/vector.png);
+}
+
+
+#vector_ek1 {
+	top: 147px !important;
+	position: absolute !important;
+	left: 1219px;
+	width: 28px;
+	height: 28px;
+	background:url(skins/vector_ek1.png);
+}
+
+
+#vector_ek2 {
+	top: 586px !important;
+	position: absolute !important;
+	left: 569px;
+	width: 28px;
+	height: 28px;
+	background:url(skins/vector_ek2.png);
+}
+
+
+#vector_ek3 {
+	top: 586px !important;
+	position: absolute !important;
+	left: 1219px;
+	width: 28px;
+	height: 28px;
+	background:url(skins/vector_ek3.png);
+}
+
+
+#hani_title_manyvirus_1 {
+	top: 204px !important;
+	position: absolute !important;
+	left: 783px;
+	width: 540px;
+	height: 338px;
+	background:url(skins/hani_title_manyvirus_1.png);
+}
+
+
+#hani_content_manyvirus_1 {
+	top: 644px !important;
+	position: absolute !important;
+	left: 785px;
+	width: 538px;
+	height: 337px;
+	background:url(skins/hani_content_manyvirus_1.png);
+}
+
+
+#chosun_title_manyvirus_1 {
+	top: 204px !important;
+	position: absolute !important;
+	left: 129px;
+	width: 541px;
+	height: 338px;
+	background:url(skins/chosun_title_manyvirus_1.png);
+}
+
+
+
+/* Add your custom CSS here */
